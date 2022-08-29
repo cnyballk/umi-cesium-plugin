@@ -1,7 +1,7 @@
 {
   "name": "umi-cesium-plugin",
   "author": "cnyballk",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "umi with cesium",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,8 @@
     "umi-plugin",
     "cesium"
   ],
-  "repository": "/umi-cesium-plugin",
+  "repository": "https://github.com/cnyballk/umi-plugin-cesium",
+  "homepage": "https://github.com/cnyballk/umi-plugin-cesium",
   "authors": {
     "name": "cnyballk",
     "email": "cnyballk@qq.com"
@@ -27,6 +28,7 @@
     "father": "^4.0.0"
   },
   "dependencies": {
+    "cesium": "^1.96.0",
     "umi": "^4.0.15"
   }
 }
