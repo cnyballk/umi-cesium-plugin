@@ -14,8 +14,8 @@
     "umi-plugin",
     "cesium"
   ],
-  "repository": "https://github.com/cnyballk/umi-plugin-cesium",
-  "homepage": "https://github.com/cnyballk/umi-plugin-cesium",
+  "repository": "https://github.com/cnyballk/umi-cesium-plugin",
+  "homepage": "https://github.com/cnyballk/umi-cesium-plugin",
   "authors": {
     "name": "cnyballk",
     "email": "cnyballk@qq.com"
