@@ -1,0 +1,32 @@
+{
+  "name": "umi-cesium-plugin",
+  "author": "cnyballk",
+  "version": "0.0.1",
+  "description": "umi with cesium",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "father build",
+    "prepublish": "pnpm run build"
+  },
+  "keywords": [
+    "umi",
+    "umi-plugin",
+    "cesium"
+  ],
+  "repository": "/umi-cesium-plugin",
+  "authors": {
+    "name": "cnyballk",
+    "email": "cnyballk@qq.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "father": "^4.0.0"
+  },
+  "dependencies": {
+    "umi": "^4.0.15"
+  }
+}
