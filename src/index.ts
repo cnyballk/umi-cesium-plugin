@@ -93,7 +93,7 @@ export default (api: IApi) => {
       api.writeTmpFile({
         path: "index.ts",
         content: `
-import * as Cesium from '${winPath(pkgPath)}';
+import * as Cesium from 'cesium';
 
 window.CESIUM_BASE_URL = '/Cesium';
 ${
