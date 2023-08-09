@@ -1,8 +1,7 @@
-import type { IApi } from "umi";
-import { winPath } from "umi/plugin-utils";
 import { readFileSync } from "fs";
 import { dirname, join } from "path";
-import { resolveProjectDep, getAbsPath } from "./utils";
+import type { IApi } from "umi";
+import { getAbsPath, resolveProjectDep } from "./utils";
 
 export default (api: IApi) => {
   api.describe({
@@ -41,7 +40,7 @@ export default (api: IApi) => {
     };
     return memo;
   });
-  const cesiumPath = dirname(require.resolve("cesium"));
+  const cesiumPath = dirname(pkgPath);
 
   api.addBeforeMiddlewares(() => {
     return [
