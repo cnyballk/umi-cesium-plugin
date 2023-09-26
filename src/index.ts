@@ -40,8 +40,7 @@ export default (api: IApi) => {
     };
     return memo;
   });
-  const cesiumPath = dirname(pkgPath);
-
+  const cesiumPath = pkgPath;
   api.addBeforeMiddlewares(() => {
     return [
       (req, res, next) => {
